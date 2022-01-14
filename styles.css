@@ -1,0 +1,395 @@
+* {
+  list-style-type: none;
+ 
+}
+
+body{
+
+  padding: 0;
+  margin: 0;
+
+}
+/* HEADER */
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+header {
+  background-image: url("images/1-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top auto auto 100em;
+  position: relative;
+  right: 1em;
+  bottom: 1em;
+  width: 100vw;
+  height: 46em;
+}
+
+.orange {
+  color: #e59285;
+}
+
+span {
+  color: black;
+  position: relative;
+  right: 0.2em;
+  top: 0.03em;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+header nav ul li {
+  margin-right: 1em;
+}
+header a:hover, header a p:hover {
+  color: #e59285;
+}
+header div {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 1em;
+  font-size: 3em;
+}
+header div ul li {
+  color: black;
+}
+header #on p {
+  position: relative;
+  top: 8em;
+  left: -2em;
+  display: flex;
+  justify-content: center;
+  width: 15em;
+  align-items: center;
+  font-family: "Poppins";
+  font-size: 0.5em;
+}
+header #on p::after {
+  content: "─────";
+  width: 1em;
+  position: relative;
+  left: -4em;
+  top: -0.05em;
+}
+
+.orange {
+  color: #e59285;
+}
+
+.notPrice {
+  text-decoration: line-through;
+}
+
+/* Section NEW PRODUCTS : */
+
+div #main:first-child div:first-child section div:nth-child(3) {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1;
+}
+div #main:first-child div:first-child section div:nth-child(3) ul li {
+  width: 15em;
+  height: auto;
+}
+div #main:first-child div:first-child section div:nth-child(3) ul li img {
+  width: 17em;
+  height: auto;
+}
+div #main:first-child
+  div:first-child
+  section
+  div:nth-child(3)
+  ul
+  li:first-child {
+  height: 22em;
+}
+div #main:first-child div:first-child section div:nth-child(3) ul img:hover {
+  width: 17.25em;
+  box-shadow: 1px 1px 1px black;
+}
+div #main:first-child div:first-child section h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Poppins";
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+li {
+  color: gray;
+  font-family: "Poppins";
+}
+
+#paragraph {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  font-family: "Poppins";
+}
+
+/* STAY WITH US */
+
+div #main:first-child > div:last-child section {
+  background-image: url("images/2-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 30em;
+}
+
+div #main:first-child div:last-child section form
+{
+
+  transform: translateY(-160%);
+
+}
+
+div #main:first-child div:last-child section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+div #main:first-child div:last-child section form p {
+  position: relative;
+  left: 4em;
+  
+  border-bottom: 1px solid black;
+}
+div #main:first-child div:last-child section form p input {
+  border-style: none;
+  background-color: none;
+}
+div #main:first-child div:last-child section h1 {
+  position: relative;
+  left: 4em;
+  font-family: "Poppins";
+  font-size: 1.5em;
+}
+div #main:first-child div:last-child section p {
+  position: relative;
+  left: 4em;
+  color: gray;
+}
+#subscribe {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* ALL PRODUCTS */
+
+#part1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#part1 ul li {
+  width: 15em;
+  height: auto;
+}
+
+#part1 ul li:first-child {
+  height: 22em;
+}
+
+#part1 ul {
+  height: 25em;
+}
+
+#part1 ul li img:hover {
+  width: 17em;
+  box-shadow: 1px 1px 1px black;
+}
+#part2 ul li img:hover {
+  width: 17em;
+  box-shadow: 1px 1px 1px black;
+}
+#part2 ul li {
+  width: 15em;
+  height: auto;
+}
+#part2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#part2 ul li:first-child {
+  height: 22em;
+}
+
+#allproducts nav a {
+  text-decoration: none;
+  color: black;
+}
+#allproducts nav a:hover {
+  color: #e59285;
+}
+#allproducts nav ul {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+#allproducts nav ul li {
+  width: 10em;
+  margin-right: 1em;
+}
+#allproducts h1,
+#allproducts p {
+  display: flex;
+  justify-content: center;
+  
+}
+#allproducts h1{
+  font-family: "Poppins";
+  font-size: 1.5em;
+  font-weight: bold;
+}
+#allproducts p {
+  color: gray;
+}
+
+/* SECTION OUR BLOG */
+
+#OurBlog {
+  background-color: rgb(240, 240, 240);
+  height: 50em;
+}
+#OurBlog #ulOur {
+  display: flex;
+  justify-content: center;
+}
+#OurBlog #ulOur #hBlog {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+}
+#OurBlog #ulOur p {
+  text-align: center;
+  width: 26em;
+}
+#OurBlog #ulFirstChild {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#OurBlog #ulFirstChild li {
+  background-color: white;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  height: 10em;
+}
+
+/* main-3 is the third div with a class name main */
+.main-3 section:first-child p {
+  width: 30em;
+  margin: 1em;
+  padding: 1em;
+  
+}
+#OurBlog #hBlog {
+  color: black;
+  font-weight: bold;
+}
+
+#OurBlog h1{
+
+  color: black;
+  font-weight: 100;
+  margin-left: 1em;
+
+}
+
+p {
+  font-family: "Poppins";
+  color: gray;
+}
+
+/* SECTION BESTSELLER */
+
+#BestSeller {
+  height: 50em;
+}
+
+#BestSeller #hBestSeller {
+  font-family: "Poppins";
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+#BestSeller ul:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#BestSeller p {
+  width: 30em;
+  text-align: center;
+}
+#BestSeller ul:last-child {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#BestSeller #ulLastChild li {
+  width: 20em;
+  height: 25em;
+}
+#BestSeller img {
+  width: 19em;
+}
+#BestSeller img:hover {
+  box-shadow: 1px 1px 1px black;
+  width: 19.5em;
+}
+
+/* FOOTER */
+
+#Footer {
+  text-align: center;
+  position: relative;
+  top: 150em;
+  height: 50em;
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  justify-content: center;
+}
+#media{
+
+  width: 70em;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  transform: translateY(1000%);
+
+}
+
+#Footer img{ 
+
+  transform: translateY(30%);
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 1000px){
+
+  #media{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    transform: translate(25%, 20%);
+
+  }
+
+}
