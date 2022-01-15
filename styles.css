@@ -180,31 +180,23 @@ div #main:first-child div:last-child section p {
   position: relative;
   top: -.8em;
 }
-
 #part1 ul li {
   width: 15em;
   height: auto;
 }
-
 #part1 ul li:first-child {
   height: 22em;
 }
-
 #part1 ul {
   height: 25em;
 }
-
 #part1 ul li img:hover {
   width: 17em;
   box-shadow: 1px 1px 1px black;
 }
-
 #part1 ul li p, #part2 ul li p{
-
   transform: translateY(-60%);
-  
 }
-
 #part2 ul li img:hover {
   width: 17em;
   box-shadow: 1px 1px 1px black;
