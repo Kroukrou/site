@@ -50,7 +50,7 @@ header div{
   top: 1em;
   font-size: 3em;
 }
-header div ul li {
+header div ul li{
   color: black;
 }
 header #on p{
@@ -101,7 +101,7 @@ div #main:first-child
   section
   div:nth-child(3)
   ul
-  li:first-child {
+  li:first-child{
   height: 22em;
 }
 div #main:first-child div:first-child section div:nth-child(3) ul img:hover{
@@ -136,8 +136,7 @@ div #main:first-child > div:last-child section{
   background-position: right;
   height: 30em;
 }
-div #main:first-child div:last-child section form
-{
+div #main:first-child div:last-child section form{
  transform: translateY(-160%);
 }
 div #main:first-child div:last-child section{
@@ -151,76 +150,76 @@ div #main:first-child div:last-child section form p{
   left: 4em;
   border-bottom: 1px solid black;
 }
-div #main:first-child div:last-child section form p input {
+div #main:first-child div:last-child section form p input{
   border-style: none;
   background-color: none;
 }
-div #main:first-child div:last-child section h1 {
+div #main:first-child div:last-child section h1{
   position: relative;
   left: 4em;
   font-family: "Poppins";
   font-size: 1.5em;
 }
-div #main:first-child div:last-child section p {
+div #main:first-child div:last-child section p{
   position: relative;
   left: 4em;
   color: gray;
 }
-#subscribe {
+#subscribe{
   text-transform: uppercase;
   font-weight: bold;
 }
 
 /* ALL PRODUCTS */
 
-#part1 {
+#part1{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
   top: -.8em;
 }
-#part1 ul li {
+#part1 ul li{
   width: 15em;
   height: auto;
 }
-#part1 ul li:first-child {
+#part1 ul li:first-child{
   height: 22em;
 }
-#part1 ul {
+#part1 ul{
   height: 25em;
 }
-#part1 ul li img:hover {
+#part1 ul li img:hover{
   width: 17em;
   box-shadow: 1px 1px 1px black;
 }
 #part1 ul li p, #part2 ul li p{
   transform: translateY(-60%);
 }
-#part2 ul li img:hover {
+#part2 ul li img:hover{
   width: 17em;
   box-shadow: 1px 1px 1px black;
 }
-#part2 ul li {
+#part2 ul li{
   width: 15em;
   height: auto;
 }
-#part2 {
+#part2{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-#part2 ul li:first-child {
+#part2 ul li:first-child{
   height: 22em;
 }
-#allproducts nav a {
+#allproducts nav a{
   text-decoration: none;
   color: black;
 }
-#allproducts nav a:hover {
+#allproducts nav a:hover{
   color: #e59285;
 }
-#allproducts nav ul {
+#allproducts nav ul{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -231,7 +230,7 @@ div #main:first-child div:last-child section p {
 #allproducts nav ul li:last-child{
   transform: translateX(-23%);
 }
-#allproducts nav ul li {
+#allproducts nav ul li{
   width: 7em;
   margin-right: 1em;
   text-align: center;
@@ -240,7 +239,7 @@ div #main:first-child div:last-child section p {
   transform: translateX(-1.5%);
 }
 #allproducts h1,
-#allproducts p {
+#allproducts p{
   display: flex;
   justify-content: center;
 }
@@ -249,46 +248,46 @@ div #main:first-child div:last-child section p {
   font-size: 1.5em;
   font-weight: bold;
 }
-#allproducts p {
+#allproducts p{
   color: gray;
 }
 
 /* SECTION OUR BLOG */
 
-#OurBlog {
+#OurBlog{
   background-color: rgb(240, 240, 240);
   height: 50em;
 }
-#OurBlog #ulOur {
+#OurBlog #ulOur{
   display: flex;
   justify-content: center;
 }
-#OurBlog #ulOur #hBlog {
+#OurBlog #ulOur #hBlog{
   display: flex;
   justify-content: center;
   font-size: 1.5em;
 }
-#OurBlog #ulOur p {
+#OurBlog #ulOur p{
   text-align: center;
   width: 26em;
 }
-#OurBlog #ulFirstChild {
+#OurBlog #ulFirstChild{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-#OurBlog #ulFirstChild li {
+#OurBlog #ulFirstChild li{
   background-color: white;
   margin-right: 1em;
   margin-bottom: 1em;
   height: 10em;
 }
-.main-3 section:first-child p {
+.main-3 section:first-child p{
   width: 30em;
   margin: 1em;
   padding: 1em;
 }
-#OurBlog #hBlog {
+#OurBlog #hBlog{
   color: black;
   font-weight: bold;
 }
@@ -304,44 +303,44 @@ p{
 
 /* SECTION BESTSELLER */
 
-#BestSeller {
+#BestSeller{
   height: 50em;
 }
-#BestSeller #hBestSeller {
+#BestSeller #hBestSeller{
   font-family: "Poppins";
   color: black;
   font-size: 1.5em;
   font-weight: bold;
 }
-#BestSeller ul:first-child {
+#BestSeller ul:first-child{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#BestSeller p {
+#BestSeller p{
   width: 30em;
   text-align: center;
 }
-#BestSeller ul:last-child {
+#BestSeller ul:last-child{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-#BestSeller #ulLastChild li {
+#BestSeller #ulLastChild li{
   width: 20em;
   height: 25em;
 }
-#BestSeller img {
+#BestSeller img{
   width: 19em;
 }
-#BestSeller img:hover {
+#BestSeller img:hover{
   box-shadow: 1px 1px 1px black;
   width: 19.5em;
 }
 
 /* FOOTER */
 
-#Footer {
+#Footer{
   text-align: center;
   position: relative;
   top: 150em;
