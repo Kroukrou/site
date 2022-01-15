@@ -1,21 +1,18 @@
-* {
+*{
   list-style-type: none;
- 
-}
-
+ }
 body{
-
   padding: 0;
   margin: 0;
-
 }
+
 /* HEADER */
 
-header a {
+header a{
   text-decoration: none;
   color: black;
 }
-header {
+header{
   background-image: url("images/1-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,30 +23,27 @@ header {
   width: 100vw;
   height: 46em;
 }
-
-.orange {
+.orange{
   color: #e59285;
 }
-
-span {
+span{
   color: black;
   position: relative;
   right: 0.2em;
   top: 0.03em;
 }
-
-header nav ul {
+header nav ul{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-header nav ul li {
+header nav ul li{
   margin-right: 1em;
 }
-header a:hover, header a p:hover {
+header a:hover, header a p:hover{
   color: #e59285;
 }
-header div {
+header div{
   display: flex;
   justify-content: center;
   position: relative;
@@ -59,7 +53,7 @@ header div {
 header div ul li {
   color: black;
 }
-header #on p {
+header #on p{
   position: relative;
   top: 8em;
   left: -2em;
@@ -70,36 +64,35 @@ header #on p {
   font-family: "Poppins";
   font-size: 0.5em;
 }
-header #on p::after {
+header #on p::after{
   content: "─────";
   width: 1em;
   position: relative;
   left: -4em;
   top: -0.05em;
 }
-
-.orange {
+.orange{
   color: #e59285;
 }
-
-.notPrice {
+.notPrice{
   text-decoration: line-through;
 }
 
 /* Section NEW PRODUCTS : */
 
-div #main:first-child div:first-child section div:nth-child(3) {
+div #main:first-child div:first-child section div:nth-child(3){
   display: flex;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   flex: 1;
+  transform: translateX(-3.3%);
 }
-div #main:first-child div:first-child section div:nth-child(3) ul li {
+div #main:first-child div:first-child section div:nth-child(3) ul li{
   width: 15em;
   height: auto;
 }
-div #main:first-child div:first-child section div:nth-child(3) ul li img {
+div #main:first-child div:first-child section div:nth-child(3) ul li img{
   width: 17em;
   height: auto;
 }
@@ -111,11 +104,11 @@ div #main:first-child
   li:first-child {
   height: 22em;
 }
-div #main:first-child div:first-child section div:nth-child(3) ul img:hover {
+div #main:first-child div:first-child section div:nth-child(3) ul img:hover{
   width: 17.25em;
   box-shadow: 1px 1px 1px black;
 }
-div #main:first-child div:first-child section h1 {
+div #main:first-child div:first-child section h1{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -123,13 +116,11 @@ div #main:first-child div:first-child section h1 {
   font-size: 1.5em;
   font-weight: bold;
 }
-
-li {
+li{
   color: gray;
   font-family: "Poppins";
 }
-
-#paragraph {
+#paragraph{
   display: flex;
   justify-content: center;
   color: gray;
@@ -138,31 +129,26 @@ li {
 
 /* STAY WITH US */
 
-div #main:first-child > div:last-child section {
+div #main:first-child > div:last-child section{
   background-image: url("images/2-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
   height: 30em;
 }
-
 div #main:first-child div:last-child section form
 {
-
-  transform: translateY(-160%);
-
+ transform: translateY(-160%);
 }
-
-div #main:first-child div:last-child section {
+div #main:first-child div:last-child section{
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
-div #main:first-child div:last-child section form p {
+div #main:first-child div:last-child section form p{
   position: relative;
   left: 4em;
-  
   border-bottom: 1px solid black;
 }
 div #main:first-child div:last-child section form p input {
@@ -191,6 +177,8 @@ div #main:first-child div:last-child section p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  position: relative;
+  top: -.8em;
 }
 
 #part1 ul li {
@@ -210,6 +198,13 @@ div #main:first-child div:last-child section p {
   width: 17em;
   box-shadow: 1px 1px 1px black;
 }
+
+#part1 ul li p, #part2 ul li p{
+
+  transform: translateY(-60%);
+  
+}
+
 #part2 ul li img:hover {
   width: 17em;
   box-shadow: 1px 1px 1px black;
@@ -223,11 +218,9 @@ div #main:first-child div:last-child section p {
   flex-wrap: wrap;
   justify-content: center;
 }
-
 #part2 ul li:first-child {
   height: 22em;
 }
-
 #allproducts nav a {
   text-decoration: none;
   color: black;
@@ -237,18 +230,27 @@ div #main:first-child div:last-child section p {
 }
 #allproducts nav ul {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  flex: 1;
+}
+#allproducts nav ul li:first-child{
+  transform: translateX(23%);
+}
+#allproducts nav ul li:last-child{
+  transform: translateX(-23%);
 }
 #allproducts nav ul li {
-  width: 10em;
+  width: 7em;
   margin-right: 1em;
+  text-align: center;
+}
+#allproducts div{
+  transform: translateX(-1.5%);
 }
 #allproducts h1,
 #allproducts p {
   display: flex;
   justify-content: center;
-  
 }
 #allproducts h1{
   font-family: "Poppins";
@@ -289,28 +291,21 @@ div #main:first-child div:last-child section p {
   margin-bottom: 1em;
   height: 10em;
 }
-
-/* main-3 is the third div with a class name main */
 .main-3 section:first-child p {
   width: 30em;
   margin: 1em;
   padding: 1em;
-  
 }
 #OurBlog #hBlog {
   color: black;
   font-weight: bold;
 }
-
 #OurBlog h1{
-
   color: black;
   font-weight: 100;
   margin-left: 1em;
-
 }
-
-p {
+p{
   font-family: "Poppins";
   color: gray;
 }
@@ -320,7 +315,6 @@ p {
 #BestSeller {
   height: 50em;
 }
-
 #BestSeller #hBestSeller {
   font-family: "Poppins";
   color: black;
@@ -332,7 +326,6 @@ p {
   flex-direction: column;
   align-items: center;
 }
-
 #BestSeller p {
   width: 30em;
   text-align: center;
@@ -366,30 +359,24 @@ p {
   justify-content: center;
 }
 #media{
-
   width: 70em;
   display: flex;
   justify-content: space-evenly;
   flex-direction: row-reverse;
   transform: translateY(1000%);
-
 }
-
 #Footer img{ 
-
   transform: translateY(30%);
-
 }
-
+#media img{
+  height: 2em;
+}
 @media screen and (min-width: 0px) and (max-width: 1000px){
-
   #media{
     width: 70%;
     height: 70%;
     display: flex;
     flex-direction: column;
     transform: translate(25%, 20%);
-
   }
-
 }
